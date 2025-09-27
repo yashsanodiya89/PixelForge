@@ -166,6 +166,6 @@ Please keep changes isolated to a logical feature or fix, and maintain consisten
 
 ## Contact
 
-Made by **Yash**  
+Made with ❤️ by **Yash Sanodiya**  
 - GitHub: [yashsanodiya89](https://github.com/yashsanodiya89)  
 - Live site: [pixelforgebyyash.netlify.app](https://pixelforgebyyash.netlify.app)  
