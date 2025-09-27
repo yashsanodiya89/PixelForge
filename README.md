@@ -96,78 +96,76 @@ cd PixelForge
 npm install
 # or
 yarn install
+```
+
 Running Locally
-bash
-Copy code
+```bash
 npm run dev
 # or
 yarn dev
+```
+
 Once the development server is up, open your browser at http://localhost:3000 (or as defined in your config).
 
 Building / Deployment
-bash
-Copy code
+```bash
 npm run build
 # or
 yarn build
+```
+
 Then deploy the static output or server (depending on setup) to your hosting provider (Netlify, Vercel, etc.).
 Ensure environment variables (if any) are configured in your deployment settings.
 
-Features
-Responsive, mobile-first design
+## Features
 
-Fast loading, performance-optimized
+- Responsive, mobile-first design  
+- Fast loading, performance-optimized  
+- Modular component-based architecture  
+- Easy customization through Bolt.diy / configuration layers  
+- SEO-friendly markup  
+- Integration-ready sections (lead capture, hero, features, testimonials, etc.)  
 
-Modular component-based architecture
+---
 
-Easy customization through Bolt.diy / configuration layers
+## How It Works
 
-SEO-friendly markup
+1. **Bolt.diy composition** — You design the page structure using Bolt.diy’s visual tool, defining sections, content blocks, and layouts.  
+2. **Vibe Code translation** — The Bolt.diy setup is compiled / translated into Vibe’s component-driven code.  
+3. **UI components** — Reusable components (hero, cards, forms) are defined in `components/`.  
+4. **Data & hooks** — Custom hooks and utility modules in `hooks/` and `lib/` manage dynamic data or interactivity.  
+5. **Styling / Theming** — Styles via Tailwind or utility classes. You can override themes or styles via config.  
+6. **Build & deploy** — Vibe’s build system (or underlying bundler) produces optimized output which you host.  
 
-Integration-ready sections (lead capture, hero, features, testimonials, etc.)
+---
 
-How It Works
-Bolt.diy composition — You design the page structure using Bolt.diy’s visual tool, defining sections, content blocks, and layouts.
+## Customization & Configuration
 
-Vibe Code translation — The Bolt.diy setup is compiled / translated into Vibe’s component-driven code.
-
-UI components — Reusable components (hero, cards, forms) are defined in components/.
-
-Data & hooks — Custom hooks and utility modules in hooks/ and lib/ manage dynamic data or interactivity.
-
-Styling / Theming — Styles via Tailwind or utility classes. You can override themes or styles via config.
-
-Build & deploy — Vibe’s build system (or underlying bundler) produces optimized output which you host.
-
-Customization & Configuration
 To make PixelForge your own:
 
-Override colors, spacing, typography in tailwind.config.ts
+- Override colors, spacing, typography in `tailwind.config.ts`  
+- Swap or reorder sections defined in bolt settings or component tree  
+- Replace content (images, text, calls-to-action) in component props  
+- Add or remove features or sections by editing component imports or config files  
+- Extend hooks or utility functions for new data / API integrations  
 
-Swap or reorder sections defined in bolt settings or component tree
+---
 
-Replace content (images, text, calls-to-action) in component props
+## Contributing
 
-Add or remove features or sections by editing component imports or config files
-
-Extend hooks or utility functions for new data / API integrations
-
-Contributing
 I appreciate your interest! To contribute:
 
-Fork the repository
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature/YourFeature`)  
+3. Make changes & test locally  
+4. Submit a pull request  
 
-Create a feature branch (git checkout -b feature/YourFeature)
+Please keep changes isolated to a logical feature or fix, and maintain consistency with the existing style / conventions.  
 
-Make changes & test locally
+---
 
-Submit a pull request
+## Contact
 
-Please keep changes isolated to a logical feature or fix, and maintain consistency with the existing style / conventions.
-
-Contact
-Made by Yash
-
-GitHub: yashsanodiya89
-
-Live site: pixelforgebyyash.netlify.app
+Made by **Yash**  
+- GitHub: [yashsanodiya89](https://github.com/yashsanodiya89)  
+- Live site: [pixelforgebyyash.netlify.app](https://pixelforgebyyash.netlify.app)  
